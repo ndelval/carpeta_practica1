@@ -3,10 +3,10 @@ namespace Practice1
 {
 	public class City : IMessageWritter
 	{
-		private PoliceStation CityStation;
+		private IStation CityStation;
         private List<Taxi> taxiLicences;
 
-		public City(PoliceStation argCityStation) // DUDA preguntar si es correcto pasar esto como argumento por que claro primero creo la police stationm y luego la cuidad
+		public City(IStation argCityStation) // DUDA preguntar si es correcto pasar esto como argumento por que claro primero creo la police stationm y luego la cuidad
 		{
 			CityStation = argCityStation; // DUDA realmente no uso para nada a que ciudad esta asociada cada comisaria
             taxiLicences = new List<Taxi>();

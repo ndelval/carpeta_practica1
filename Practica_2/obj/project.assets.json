@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ndelvalalvarez/Downloads/TERECERO/P1-vehicle_example/Practice1.csproj",
+      "projectUniqueName": "/Users/ndelvalalvarez/Downloads/TERECERO/Paradigmas_y_Tecnicas_de_Programación/carpeta_practica1/Practica_2/Practice1.csproj",
       "projectName": "Practice1",
-      "projectPath": "/Users/ndelvalalvarez/Downloads/TERECERO/P1-vehicle_example/Practice1.csproj",
+      "projectPath": "/Users/ndelvalalvarez/Downloads/TERECERO/Paradigmas_y_Tecnicas_de_Programación/carpeta_practica1/Practica_2/Practice1.csproj",
       "packagesPath": "/Users/ndelvalalvarez/.nuget/packages/",
-      "outputPath": "/Users/ndelvalalvarez/Downloads/TERECERO/P1-vehicle_example/obj/",
+      "outputPath": "/Users/ndelvalalvarez/Downloads/TERECERO/Paradigmas_y_Tecnicas_de_Programación/carpeta_practica1/Practica_2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ndelvalalvarez/.nuget/NuGet/NuGet.Config"

@@ -23,7 +23,7 @@ namespace Practice1
             
             Console.WriteLine("\n--- Assigning police cars to a new city and police station ---\n");
 
-            PoliceStation newPoliceStation = new PoliceStation(); 
+            IStation newPoliceStation = new PoliceStation(); 
             City newCity = new City(newPoliceStation); 
 
             
