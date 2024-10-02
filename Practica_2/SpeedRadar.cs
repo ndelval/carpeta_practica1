@@ -2,7 +2,6 @@
 {
     public class SpeedRadar : IMessageWritter, IRadar
     {
-        //Radar doesn't know about Vechicles, just speed and plates
         private string plate;
         private float speed;
         private float legalSpeed = 50.0f;
@@ -38,7 +37,6 @@
                 radarMessage = WriteMessage("Driving legally.");
             }
 
-            // Return both the radar message and the speed
             return (radarMessage, trigger);
         }
 

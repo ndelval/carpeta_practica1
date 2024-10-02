@@ -3,7 +3,7 @@
 
     class Taxi : VehicleWithPlate
     {
-        // DUDA tengo que verificar si un taxi tiene licencia antes de poder usarlo?
+ 
         private static string typeOfVehicle = "Taxi";
         private bool isCarryingPassengers;
 

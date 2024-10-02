@@ -3,12 +3,12 @@ namespace Practice1
 {
 	public class City : IMessageWritter
 	{
-		private IStation CityStation;
+		private IStation CityStation; // Por si en vez de una estación de policia queremos una estacion de bomberos
         private List<Taxi> taxiLicences;
 
-		public City(IStation argCityStation) // DUDA preguntar si es correcto pasar esto como argumento por que claro primero creo la police stationm y luego la cuidad
+		public City(IStation argCityStation) 
 		{
-			CityStation = argCityStation; // DUDA realmente no uso para nada a que ciudad esta asociada cada comisaria
+			CityStation = argCityStation; 
             taxiLicences = new List<Taxi>();
         }
         public override string ToString()
@@ -22,7 +22,7 @@ namespace Practice1
             taxiLicences.Add(taxi);
             return taxi;
         }
-        // DUDA Cuando tengo que eliminar licencias simplemente quito el taxi de mi lista o tengo que de alguna manera eliminar la existencia de ese objeto taxi?
+        
         public void deleteLicense(string plate)
         {
             Taxi taxiToRemove = taxiLicences.Find(taxi => taxi.GetPlate() == plate);

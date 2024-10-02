@@ -33,7 +33,6 @@ namespace Practice1
             policeStation.AddSpeedingTaxi(vehicle);
         }
 
-        // DUDA cuando va a dejar de perseguir el policia?
         public void UseRadar(Vehicle vehicle)
         {
             if (isPatrolling && speedRadar != null)
